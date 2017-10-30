@@ -8,3 +8,4 @@ sudo apt-get update
 sudo apt-get -y install docker-ce
 sudo groupadd docker
 sudo usermod -aG docker ubuntu
+newgrp docker
